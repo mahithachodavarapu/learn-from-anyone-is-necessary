@@ -1,0 +1,53 @@
+body {
+    background-image: url('44.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+  }
+  a {
+    background-color: rgb(65, 160, 147);
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+h1{
+    text-align:center;
+    font-weight:900;
+    font-family:"Lucida Console", Courier, monospace;
+    background-color:white;
+    color:rgb(76, 7, 97);
+    border:5px solid darkcyan;
+}
+h2{
+    text-align:center;
+    font-family:"Lucida Console", Courier, monospace;
+    background-color:DarkTurquoise;
+    color:whitesmoke;
+    border:5px solid darkcyan;
+}
+ul{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(5, 73, 66);
+}
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(5, 73, 66);
+}
+table{
+    width: 50%;
+    height: 50px;
+    text-align: left;
+    vertical-align: bottom;
+    }
+ th, td {
+    text-align: left;
+    padding: 8px;
+      }
+      
+tr:nth-child(even){background-color: rgb(163, 225, 233)}
+th {
+    background-color:rgb(48, 138, 126);
+    color: white;
+    }
