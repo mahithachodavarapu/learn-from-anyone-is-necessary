@@ -84,22 +84,6 @@
     color: black;
   }
   
-  /* Column container */
-  .row {  
-    display: -ms-flexbox; /* IE10 */
-    display: flex;
-    -ms-flex-wrap: wrap; /* IE10 */
-    flex-wrap: wrap;
-  }
-  
-  /* Create two unequal columns that sits next to each other */
-  /* Sidebar/left column */
-  .side {
-    -ms-flex: 30%; /* IE10 */
-    flex: 30%;
-    background-color: #f1f1f1;
-    padding: 20px;
-  }
   
   /* Main column */
   .main {   
@@ -113,7 +97,7 @@
   /* image */
   .main img {
     background-color:  rgb(65, 160, 147);
-    padding: 10px;
+    
     text-align: center;
   }
   .main h2{
@@ -122,10 +106,11 @@
   }
   /* Footer */
   .footer {
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     font-family:Arial, Helvetica, sans-serif;
-    background: #ddd;
+    background: rgb(114, 114, 114);
+    color: #f1f1f1;
   }
   
   /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
@@ -260,8 +245,9 @@ color: rgb(66, 66, 94);
 
 }  
 span{  
-  color: rgb(94, 92, 92);  
+  color:white;  
   font-size: 17px;  
+  background: rgb(100, 163, 165);
   
 }  
 h2{
@@ -270,6 +256,18 @@ h2{
   padding: 10px;
   text-align: center;
 
+}
+h3{
+  background-color: rgb(161, 168, 168);
+  color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+
+}
+p{
+  text-align: center;
+  font-size:larger;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 input[type=text], select, textarea {
   width: 100%;
