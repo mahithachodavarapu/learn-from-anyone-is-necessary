@@ -1,12 +1,12 @@
 * {
     box-sizing: border-box;
-  }
+   }
   
   /* Style the body */
   body {
     font-family:"Arial, Helvetica, sans-serif";
     margin: 5%;
-    background-image: url('44.jpg');
+    background-image: url('45.jpg');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 100% 125%;
@@ -24,7 +24,7 @@
   
   /* Increase the font size of the heading */
   .header h1 {
-    font-size: 40px;
+    font-size: 30px;
     background-color: rgb(65, 160, 147);
     color: white;
     padding: 14px 25px;
@@ -142,3 +142,161 @@
       width: 100%;
     }
   }
+  .sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.login{  
+  width: 500px;  
+  overflow: hidden;  
+  margin: auto;  
+  margin: 20 0 0 450px;  
+  padding: 80px;  
+  background: #9ab7c0;  
+  border-radius: 15px ;  
+    
+}  
+
+label{  
+color: rgb(253, 255, 255);  
+font-size: 17px;  
+}  
+#Uname{  
+width: 300px;  
+height: 30px;  
+border: none;  
+border-radius: 3px;  
+padding-left: 8px;  
+}  
+#Pass{  
+width: 300px;  
+height: 30px;  
+border: none;  
+border-radius: 3px;  
+padding-left: 8px;  
+
+}  
+#log{  
+width: 300px;  
+height: 30px;  
+border: none;  
+border-radius: 17px;  
+padding-left: 7px;  
+color: rgb(66, 66, 94);  
+
+}  
+span{  
+  color: rgb(94, 92, 92);  
+  font-size: 17px;  
+  
+}  
+h2{
+  background-color: rgb(65, 160, 147);
+  color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+ 
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #458ba0;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #9ab7c0;
+  padding: 50px;
+}

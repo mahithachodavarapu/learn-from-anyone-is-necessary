@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>INDEX</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+    <div class="header">
+        <h1>LEARNING FROM EVERYWHERE IS NECESSARY</h1>
+        
+      </div>
+      
+      <div class="navbar">
+        <a href="index.html">HOME</a>
+        <a href="sign-up.html">SIGN-UP</a>
+        <a href="sign-in.html">SIGN-IN</a>
+        <a href="contact.html">CONTACT-US</a>
+        
+      
+      </div>
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="intro.html">INTRODUCTION</a>
+        <a href="learn.html">WHERE TO LEARN</a>
+        <a href="connect.html">HOW TO GET CONNECTED</a>
+        <a href="summary.html">SUMMARY</a>
+      </div>
+      <hr>
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; MORE INFO</span>
+      <hr>
+      <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+      </script>
+      <h2>Login Page</h2><br>    
+      <div class="login">    
+      <form id="login" method="get" action="login.php">    
+          <label><b>User Name     
+          </b>    
+          </label>    
+          <input type="text" name="Uname" id="Uname" placeholder="Username">    
+          <br><br>    
+          <label><b>Password     
+          </b>    
+          </label>    
+          <input type="Password" name="Pass" id="Pass" placeholder="Password">    
+          <br><br>    
+          <input type="button" name="log" id="log" value="Log In Here">       
+          <br><br>    
+          <input type="checkbox" id="check">    
+          <span>Remember me</span>    
+          <br><br>    
+          Forgot <a href="#">Password</a>    
+      </form>     
+
+</body>
+</html>
+
